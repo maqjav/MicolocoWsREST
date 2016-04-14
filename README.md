@@ -9,7 +9,7 @@ This example includes an embebbed database (HSQLDB) with some information to pla
 
 ### Tech
 
-Dillinger uses a number of open source projects to work properly:
+MicolocoWsREST uses a number of open source projects to work properly:
 
 * [Jersey] - REST web services
 * [Genson] - here it's only used to automatize the des/serialization of messages.
