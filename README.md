@@ -2,7 +2,7 @@
 
 MicolocoWsREST is an example of an implementation using Jersey with Spring for servlet 3.0 and Java 8.
 
-This example includes an embebbed database (HSQLDB) with some information to play with. Using the test module you can test every single web service method with Grizzly server, without having to deploy your app in other container.
+This example includes an embebbed database (HSQLDB) with some information to play with. Using the test module you can test every single web service method with Grizzly server, without having to deploy your app previously in other application server.
 
 ### Version
 1.0.0
