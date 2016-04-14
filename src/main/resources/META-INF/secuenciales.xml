@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings version="1.0"
+	xmlns="http://java.sun.com/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm orm_1_0.xsd">
+	
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- Secuencia general del sistema. Dado que se usa la misma secuencia para todas las   --> 
+	<!-- tablas. Se define en el fichero orm y se hace referencia la misma desde los  		-->
+	<!-- objetos del modelo con la anotacion @GeneratedValue 			  		            -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->	
+   <sequence-generator name="P4SY72UTILIDADSEQ" allocation-size="1" sequence-name="P4SY72UTILIDADSEQ"/>
+   <sequence-generator name="P4SY72NOVEDADALERTASEQ" allocation-size="1" sequence-name="P4SY72NOVEDADALERTASEQ"/>
+   <sequence-generator name="P4SY72CORREOROLSEQ" allocation-size="1" sequence-name="P4SY72CORREOROLSEQ"/>
+   <sequence-generator name="P4SY72CORREOMASIVOSEQ" allocation-size="1" sequence-name="P4SY72CORREOMASIVOSEQ"/>
+   <sequence-generator name="P4SY72DOCUMENTACIONSEQ" allocation-size="1" sequence-name="P4SY72DOCUMENTACIONSEQ"/>
+   <sequence-generator name="P4SY72PERMISOROLSEQ" allocation-size="1" sequence-name="P4SY72PERMISOROLSEQ"/>
+   <sequence-generator name="P4SY72ROLUSUARIOSEQ" allocation-size="1" sequence-name="P4SY72ROLUSUARIOSEQ"/>
+   <sequence-generator name="P4SY72ROLSEQ" allocation-size="1" sequence-name="P4SY72ROLSEQ"/>
+   <sequence-generator name="P4SYSQ01IDA_USUARIO" allocation-size="1" sequence-name="P4SYSQ01IDA_USUARIO"/>
+   <sequence-generator name="P4SY72RCONSEQ" allocation-size="1" sequence-name="P4SY72RCONSEQ"/>
+   <sequence-generator name="P4SY72RDESCSEQ" allocation-size="1" sequence-name="P4SY72RDESCSEQ"/>
+   <sequence-generator name="P4SY72CATEGORIADOCUSEQ" allocation-size="1" sequence-name="P4SY72CATEGORIADOCUSEQ"/>
+   <sequence-generator name="P4SY72RAPADPADRONSEQ" allocation-size="1" sequence-name="P4SY72RAPADPADRONSEQ"/>
+   <sequence-generator name="P4SY72RAPADMANUALSEQ" allocation-size="1" sequence-name="P4SY72RAPADMANUALSEQ"/>
+   <sequence-generator name="P4SY72RAEXTRANSEQ" allocation-size="1" sequence-name="P4SY72RAEXTRANSEQ"/>
+   <sequence-generator name="P4SY72RAERRPENDSEQ" allocation-size="1" sequence-name="P4SY72RAERRPENDSEQ"/>
+   <sequence-generator name="P4SY02IDA_PADRON_SIGEM" allocation-size="1" sequence-name="P4SY02IDA_PADRON_SIGEM"/>
+            
+</entity-mappings>

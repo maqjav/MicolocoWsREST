@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+
+	<!-- ++++++++++++++++++++++++++ -->
+	<!-- Definición de persistencia -->
+	<!-- ++++++++++++++++++++++++++ -->
+	<persistence-unit name="PERSISTENCE_UNIT" transaction-type="RESOURCE_LOCAL">
+		<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<!-- Definimos el proveedor de persistencia y sus propiedades -->
+		<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+				
+		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<!-- Referencia al fichero de mapeo de objeto relacional -->
+		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<mapping-file>META-INF/secuenciales.xml</mapping-file>
+		
+		<properties>
+			<!-- ++++++++++++++++++++++++++++++++++++++++++++ -->
+			<!-- Ajustamos las propiedades del acceso a datos -->
+			<!-- ++++++++++++++++++++++++++++++++++++++++++++ -->
+			<property name="hibernate.dialect" value="${hibernate.databasePlatform}" />
+		</properties>
+	</persistence-unit>
+</persistence>
