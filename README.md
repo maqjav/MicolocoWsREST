@@ -19,9 +19,6 @@ MicolocoWsREST uses a number of open source projects to work properly:
 * [Servlet 3.0] - annotations vs deployment descriptor.
 * [HSQLDB] - local database.
 
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
-
 ### Installation
 
 You need Maven 3 installed globally:
